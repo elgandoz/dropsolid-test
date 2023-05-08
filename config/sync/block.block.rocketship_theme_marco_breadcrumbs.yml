@@ -1,0 +1,30 @@
+uuid: a967f839-8223-47c2-b05b-c6f626578491
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+  theme:
+    - rocketship_theme_marco
+_core:
+  default_config_hash: scXjujtrIbX--_4E4-YSSCAsEvLp03mjMXCO92pp3TI
+id: rocketship_theme_marco_breadcrumbs
+theme: rocketship_theme_marco
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page: page

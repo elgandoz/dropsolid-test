@@ -1,0 +1,13 @@
+_core:
+  default_config_hash: B1vAO-oIVowsUAzy3kKCfR5I8biL8GK5Gvi5DXf1pXA
+favicon:
+  use_default: true
+logo:
+  use_default: true
+language_dropdown: true
+language_abbr: true
+scroll_to: true
+scroll_to_exceptions: ''
+lazy_loading: true
+lazy_loading_fallback: false
+prevent_layout_shift: true

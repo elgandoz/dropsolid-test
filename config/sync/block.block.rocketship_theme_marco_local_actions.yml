@@ -1,0 +1,20 @@
+uuid: ba8054d7-9da7-4b01-8102-a8f44236c2ba
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rocketship_theme_marco
+_core:
+  default_config_hash: Du6fef_Ksby6XsoWeFP1mNkJK3PdYAW2WSrc9qZoy8M
+id: rocketship_theme_marco_local_actions
+theme: rocketship_theme_marco
+region: tabs
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

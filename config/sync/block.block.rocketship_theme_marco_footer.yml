@@ -1,0 +1,27 @@
+uuid: 34e3aec3-c52d-4686-b446-cd9ddd1b89df
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - rocketship_theme_marco
+_core:
+  default_config_hash: 67Oz1dGfN0KcsSat-APpB8ObihzV5D2KtVTYhEo4MH4
+id: rocketship_theme_marco_footer
+theme: rocketship_theme_marco
+region: doormat
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

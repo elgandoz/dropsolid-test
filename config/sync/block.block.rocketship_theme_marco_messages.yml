@@ -1,0 +1,22 @@
+uuid: bed839ec-d750-467c-bc16-edd425aa8d0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rocketship_theme_marco
+_core:
+  default_config_hash: Jn6GnAiNOWXXj6WxtC3SQGHUFhzqNEn05XtoDnNp8OI
+id: rocketship_theme_marco_messages
+theme: rocketship_theme_marco
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

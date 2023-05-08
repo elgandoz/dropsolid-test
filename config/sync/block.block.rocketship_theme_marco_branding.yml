@@ -1,0 +1,25 @@
+uuid: e0d705a8-5721-420a-af20-f6a495aeee34
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rocketship_theme_marco
+_core:
+  default_config_hash: vLSuR23KL_dQpxSHWTro3ZoaUAYfHCqISUFhH-wV3Zk
+id: rocketship_theme_marco_branding
+theme: rocketship_theme_marco
+region: header
+weight: -10
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

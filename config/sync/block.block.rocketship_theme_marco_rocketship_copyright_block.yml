@@ -1,0 +1,23 @@
+uuid: ad3903bb-034a-4fd0-accd-51ce54ed0730
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_blocks
+  theme:
+    - rocketship_theme_marco
+id: rocketship_theme_marco_rocketship_copyright_block
+theme: rocketship_theme_marco
+region: footer
+weight: 0
+provider: null
+plugin: rocketship_copyright_block
+settings:
+  id: rocketship_copyright_block
+  label: Copyright
+  label_display: '0'
+  provider: rocketship_blocks
+  company: 'Dropsolid Test'
+  terms_of_use: null
+  privacy_policy: null
+visibility: {  }

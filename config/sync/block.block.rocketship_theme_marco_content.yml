@@ -1,0 +1,22 @@
+uuid: 1ed1116d-9488-44fe-9c51-9b6025b709d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rocketship_theme_marco
+_core:
+  default_config_hash: krr2oQveisLy1HnDKA0ob1Qph19gTl6C8WjCxcSj7GQ
+id: rocketship_theme_marco_content
+theme: rocketship_theme_marco
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

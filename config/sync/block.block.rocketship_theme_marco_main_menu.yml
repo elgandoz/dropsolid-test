@@ -1,0 +1,27 @@
+uuid: c4f46e53-a590-4a58-8946-a5f90506f89b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - rocketship_theme_marco
+_core:
+  default_config_hash: U_xkMCcKXyhMxXVWR9yWkUWj4BLy5Sdg4R106ZOwyq8
+id: rocketship_theme_marco_main_menu
+theme: rocketship_theme_marco
+region: nav_primary
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

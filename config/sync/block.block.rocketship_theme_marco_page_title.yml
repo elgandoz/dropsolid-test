@@ -1,0 +1,29 @@
+uuid: 6503e444-858c-44e7-b83a-bd7f06e28ddb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - rocketship_theme_marco
+_core:
+  default_config_hash: oQRs0p8Ouv9KfZN4qWiQ8UrzAq34jn62T5dzHaXfTpY
+id: rocketship_theme_marco_page_title
+theme: rocketship_theme_marco
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page: page

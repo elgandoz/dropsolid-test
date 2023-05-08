@@ -1,0 +1,22 @@
+uuid: 3ff39f8f-9c58-463f-a0a3-77616c4a76a7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rocketship_theme_marco
+_core:
+  default_config_hash: 1JHacLvU6WTgxt6trVs7yPIeQCm_1e-jcWDHtwbljeA
+id: rocketship_theme_marco_local_tasks
+theme: rocketship_theme_marco
+region: tabs
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }
