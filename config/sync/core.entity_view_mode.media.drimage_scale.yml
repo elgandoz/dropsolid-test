@@ -1,0 +1,12 @@
+uuid: 31f44eb7-d6d6-49bf-be74-953f79350c92
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: Fa4CPHJFrSBmp1uXJaZxs-gVDq1Xsc-dn0fvqYEvY9w
+id: media.drimage_scale
+label: 'original aspect ratio'
+targetEntityType: media
+cache: true

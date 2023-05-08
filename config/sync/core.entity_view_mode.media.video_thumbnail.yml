@@ -1,0 +1,12 @@
+uuid: fe388c64-6b8c-49fe-9131-fb9acde590bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: bvBFUI3mthZDeLDrCd75jC6Og6S9A-NwBu6CdX6jJfs
+id: media.video_thumbnail
+label: 'Video (Thumbnail)'
+targetEntityType: media
+cache: true

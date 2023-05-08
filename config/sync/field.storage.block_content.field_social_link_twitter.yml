@@ -1,0 +1,21 @@
+uuid: 68ae2254-0ab8-4b39-9d20-dc3c0ca04ba1
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+_core:
+  default_config_hash: aoIoo97CxsRcsIBCmu6N6ZmbOR039KqZqyp_M-s6_L4
+id: block_content.field_social_link_twitter
+field_name: field_social_link_twitter
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

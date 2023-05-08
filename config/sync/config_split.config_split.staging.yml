@@ -1,0 +1,33 @@
+uuid: bb2d6199-aedf-4041-8ce8-dd7becff11ff
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: hmA4y22EilsK85fNwhFivhIdafY5k-rTpYIGDldyJIM
+id: staging
+label: Staging
+description: ''
+folder: ../config/splits/staging
+module:
+  reroute_email: 0
+  dropsolid_purge: 0
+  dblog: 0
+  purge: 0
+  purge_drush: 0
+  purge_processor_cron: 0
+  purge_processor_lateruntime: 0
+  purge_queuer_coretags: 0
+  memcache: 0
+theme: {  }
+blacklist:
+  - advagg.settings
+  - advagg_js_minify.settings
+  - environment_indicator.indicator
+  - environment_indicator.settings
+  - minifyhtml.config
+  - system.logging
+  - system.performance
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

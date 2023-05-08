@@ -1,0 +1,29 @@
+uuid: f85fbd18-5f2d-4581-8f96-0e4f7718dbb8
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+_core:
+  default_config_hash: Cb7qVYmrOMzQhmT1x51PKsI2fIEc050qW3sr_xevWKQ
+id: block_content.field_cb_text_alignment
+field_name: field_cb_text_alignment
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: left
+      label: 'Text left'
+    -
+      value: centered
+      label: 'Text centered'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

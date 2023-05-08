@@ -1,0 +1,18 @@
+uuid: 02c5a41f-e4a2-4e8b-8f17-5cccec72232c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: gPCKmmBlcszLvIux2mdgb9Xk4F2kcWcyjDOH2s0U34E
+name: large_2x
+label: 'Large (480×480) 2x'
+effects:
+  92aaaed9-9a26-4e8e-9c93-52e80ad37cc2:
+    uuid: 92aaaed9-9a26-4e8e-9c93-52e80ad37cc2
+    id: image_scale
+    weight: 1
+    data:
+      width: 960
+      height: 960
+      upscale: false
+pipeline: __default__

@@ -1,0 +1,12 @@
+uuid: bbef43ae-fdfc-4f34-8fce-9546ee729f2d
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: 6ntxUjOoCunyFIlDwdUZARfOI2SFNTDwt2ANEKIHGmQ
+id: media.video_colorbox_modal
+label: 'Video (Colorbox Modal)'
+targetEntityType: media
+cache: true

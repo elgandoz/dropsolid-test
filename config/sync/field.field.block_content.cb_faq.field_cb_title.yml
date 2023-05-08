@@ -1,0 +1,21 @@
+uuid: 6f2af7c2-935e-42d1-961e-eb4fa2b82ba7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_faq
+    - field.storage.block_content.field_cb_title
+_core:
+  default_config_hash: 9R46BxUkEizN_JdL0Pjhr24DbMIfuhRbgD0N74ccq-Y
+id: block_content.cb_faq.field_cb_title
+field_name: field_cb_title
+entity_type: block_content
+bundle: cb_faq
+label: Title
+description: 'Display a title for the Block.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

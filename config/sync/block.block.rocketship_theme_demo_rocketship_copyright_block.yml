@@ -1,0 +1,23 @@
+uuid: ce101b8f-7b19-4974-9c03-27a383441d96
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_blocks
+  theme:
+    - rocketship_theme_demo
+id: rocketship_theme_demo_rocketship_copyright_block
+theme: rocketship_theme_demo
+region: footer
+weight: 0
+provider: null
+plugin: rocketship_copyright_block
+settings:
+  id: rocketship_copyright_block
+  label: Copyright
+  label_display: '0'
+  provider: rocketship_blocks
+  company: Drupal
+  terms_of_use: null
+  privacy_policy: null
+visibility: {  }

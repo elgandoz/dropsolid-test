@@ -1,0 +1,12 @@
+uuid: 6d81b968-3d36-4488-86fb-1555fbce1446
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: R_jFxnmVA-dC6SRH4KEOpa60JwzY4v0z4xIBT1TQyXo
+id: rocketship_content_group
+label: 'rocketship_content group'
+description: ''
+source_type: ''
+module: null
+shared_configuration: null

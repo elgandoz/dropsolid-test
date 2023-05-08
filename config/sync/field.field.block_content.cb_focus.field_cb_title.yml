@@ -1,0 +1,21 @@
+uuid: 611a8fbe-83e0-438e-846b-49fc61492516
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_focus
+    - field.storage.block_content.field_cb_title
+_core:
+  default_config_hash: 1AxNzkJ9HFBOf-w-vHGCH6XTHwwwveFLBemaClrIJwg
+id: block_content.cb_focus.field_cb_title
+field_name: field_cb_title
+entity_type: block_content
+bundle: cb_focus
+label: Title
+description: 'Display a title for the Block.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

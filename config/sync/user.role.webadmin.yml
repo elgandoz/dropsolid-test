@@ -1,0 +1,147 @@
+uuid: 34d86428-768a-4ced-9a2c-20f8801b5b70
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.node.page.full
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - media.type.file
+    - media.type.image
+    - media.type.video_embed
+    - node.type.page
+  module:
+    - block_content_permissions
+    - config_translation
+    - content_translation
+    - contextual
+    - environment_indicator
+    - filter
+    - layout_builder
+    - locale
+    - media
+    - node
+    - path
+    - role_delegation
+    - scheduler
+    - section_library
+    - system
+    - toolbar
+    - view_unpublished
+    - webform
+_core:
+  default_config_hash: 1dqaQBsDrRRC_X9SuTHMymOUS3HpIzvVQn1cLf_ndIE
+id: webadmin
+label: 'Website administrator'
+weight: -8
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access environment indicator'
+  - 'access in-place editing'
+  - 'access media overview'
+  - 'access shortcuts'
+  - 'access toolbar'
+  - 'access webform overview'
+  - 'access webform submission log'
+  - 'administer nodes'
+  - 'administer users'
+  - 'assign webadmin role'
+  - 'change own username'
+  - 'configure editable page node layout overrides'
+  - 'create and edit custom blocks'
+  - 'create cb_faq block content'
+  - 'create cb_focus block content'
+  - 'create cb_form block content'
+  - 'create cb_image block content'
+  - 'create cb_menu_overview block content'
+  - 'create cb_photo_gallery block content'
+  - 'create cb_related_items block content'
+  - 'create cb_testimonial block content'
+  - 'create cb_text block content'
+  - 'create cb_usp block content'
+  - 'create cb_video block content'
+  - 'create content translations'
+  - 'create file media'
+  - 'create image media'
+  - 'create media'
+  - 'create page content'
+  - 'create url aliases'
+  - 'create video_embed media'
+  - 'delete any file media'
+  - 'delete any image media'
+  - 'delete any media'
+  - 'delete any page content'
+  - 'delete any video_embed media'
+  - 'delete any webform submission'
+  - 'delete cb_faq block content'
+  - 'delete cb_focus block content'
+  - 'delete cb_form block content'
+  - 'delete cb_image block content'
+  - 'delete cb_menu_overview block content'
+  - 'delete cb_photo_gallery block content'
+  - 'delete cb_related_items block content'
+  - 'delete cb_testimonial block content'
+  - 'delete cb_text block content'
+  - 'delete cb_usp block content'
+  - 'delete cb_video block content'
+  - 'delete content translations'
+  - 'delete media'
+  - 'delete own file media'
+  - 'delete own image media'
+  - 'delete own page content'
+  - 'delete own video_embed media'
+  - 'delete own webform submission'
+  - 'delete page revisions'
+  - 'edit any file media'
+  - 'edit any image media'
+  - 'edit any page content'
+  - 'edit any video_embed media'
+  - 'edit any webform submission'
+  - 'edit own file media'
+  - 'edit own image media'
+  - 'edit own page content'
+  - 'edit own video_embed media'
+  - 'edit own webform submission'
+  - 'import template from section library'
+  - 'masquerade as authenticated'
+  - 'revert page revisions'
+  - 'schedule publishing of nodes'
+  - 'translate any entity'
+  - 'translate configuration'
+  - 'translate interface'
+  - 'update any block_usp block content'
+  - 'update any cb_faq block content'
+  - 'update any cb_focus block content'
+  - 'update any cb_form block content'
+  - 'update any cb_image block content'
+  - 'update any cb_menu_overview block content'
+  - 'update any cb_photo_gallery block content'
+  - 'update any cb_related_items block content'
+  - 'update any cb_testimonial block content'
+  - 'update any cb_text block content'
+  - 'update any cb_title block content'
+  - 'update any cb_usp block content'
+  - 'update any cb_video block content'
+  - 'update any content block content'
+  - 'update any media'
+  - 'update any social_media block content'
+  - 'update content translations'
+  - 'update media'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view all media revisions'
+  - 'view any unpublished content'
+  - 'view any webform submission'
+  - 'view media'
+  - 'view own unpublished media'
+  - 'view own webform submission'
+  - 'view page revisions'
+  - 'view scheduled content'
+  - 'view section library templates'
+  - 'view the administration theme'
+  - 'view unpublished paragraphs'

@@ -1,0 +1,12 @@
+uuid: 1634ed11-d232-45ec-80c7-50fce2b47d95
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: z7p8-uSDF283eHLnWovFvVxNn48dx6oKgzVsXG7uR4Q
+id: media.drimage_4_1
+label: '4:1 aspect ratio'
+targetEntityType: media
+cache: true

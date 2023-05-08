@@ -1,0 +1,10 @@
+uuid: d0dedd9e-1fc9-40f4-9725-293791792a55
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: toPTlbQFMnuaWFiSiv8VwgE9ZP-lroW3dzWk93o4iF4
+id: social_media
+label: 'Social media'
+revision: 0
+description: 'Links to social media profiles.'

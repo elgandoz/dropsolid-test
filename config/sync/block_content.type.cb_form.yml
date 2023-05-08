@@ -1,0 +1,15 @@
+uuid: b88a4275-6781-4dab-b052-51d51bedf9f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_blocks
+third_party_settings:
+  rocketship_blocks:
+    icon_path: /modules/contrib/rocketship_core/modules/rocketship_blocks/assets/images/cb_form.svg
+_core:
+  default_config_hash: k_2Sovwq_QoC09r420LLnfjBnsfV83WsrLnf-xiRhgw
+id: cb_form
+label: Form
+revision: 0
+description: 'Place one of your forms on your page.'

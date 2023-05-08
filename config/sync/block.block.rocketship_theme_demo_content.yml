@@ -1,0 +1,22 @@
+uuid: 63e4581c-6999-4d19-813b-9cd6d346e2e6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rocketship_theme_demo
+_core:
+  default_config_hash: THb0Oo5egTBIGc5YB4yUzY1kk4Zcdhl4u0DbKR8W8r4
+id: rocketship_theme_demo_content
+theme: rocketship_theme_demo
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

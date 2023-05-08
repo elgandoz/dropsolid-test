@@ -1,0 +1,23 @@
+uuid: 58b00639-dc5c-43ef-9e8d-3c6e7e9c5a5b
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: mNwKZI8XgFfq1LXMi276XZUIbwtCZCQuzw9OWrlKQlM
+id: block_content.field_cb_subtitle
+field_name: field_cb_subtitle
+entity_type: block_content
+type: string
+settings:
+  max_length: 1024
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

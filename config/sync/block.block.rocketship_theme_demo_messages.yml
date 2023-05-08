@@ -1,0 +1,22 @@
+uuid: 2c314050-442f-49be-8bce-e143bb8719ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rocketship_theme_demo
+_core:
+  default_config_hash: 7g8x5H1r1ij1RBsEScNaeZ96fqQW-oT9VPl97WZiwJg
+id: rocketship_theme_demo_messages
+theme: rocketship_theme_demo
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

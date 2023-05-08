@@ -1,0 +1,18 @@
+uuid: 8713db7d-0cb6-4e96-8d57-fb5fda54a7fd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ElnTh35zEo70oxre9Cm1b3_kbsvLkz77YawyriAmnQI
+name: medium_2x
+label: 'Medium (220×220) 2x'
+effects:
+  e2bae4be-55f0-46bd-b3fe-f340ad656256:
+    uuid: e2bae4be-55f0-46bd-b3fe-f340ad656256
+    id: image_scale
+    weight: 1
+    data:
+      width: 440
+      height: 440
+      upscale: false
+pipeline: __default__

@@ -1,0 +1,12 @@
+uuid: 5d27d17e-4fff-455a-847d-3df4108de696
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: iNhIWeOMmLWNGAyy7Jl5DWWKhJbHfoGVNVpTEw4WLvY
+id: media.menu_clickthrough
+label: 'Menu Clickthrough'
+targetEntityType: media
+cache: true

@@ -1,0 +1,23 @@
+uuid: 06f42e85-fd4d-4938-83e4-7d8ac5402ffb
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - rocketship_theme_demo
+_core:
+  default_config_hash: VAZ6411xjhvChzaN32AG1eTj02_ITL54l9H6JrEd6fY
+id: rocketship_theme_demo_search
+theme: rocketship_theme_demo
+region: header_top
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

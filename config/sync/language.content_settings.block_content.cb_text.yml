@@ -1,0 +1,18 @@
+uuid: ea4806cc-d902-41aa-8603-ba1905241b61
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_text
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: H2KQZfVX_L6hrodRjM1R8m--ZV6OEKHhNgKWP5z6ank
+id: block_content.cb_text
+target_entity_type_id: block_content
+target_bundle: cb_text
+default_langcode: current_interface
+language_alterable: false

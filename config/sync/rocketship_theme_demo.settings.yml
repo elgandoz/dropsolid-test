@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: 6YoOarS0zvSSOoXK0PxdcOWAzEpR5soJkqVMZK6vbeQ
+header_fixed: false
+language_dropdown: true
+language_abbr: true
+scroll_to: true
+scroll_to_exceptions: ''
+lazy_loading: false
+lazy_loading_fallback: false
+prevent_layout_shift: false

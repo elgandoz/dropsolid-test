@@ -1,0 +1,21 @@
+uuid: c829299e-52f4-4a63-8700-65287198fff7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_faq
+    - field.storage.block_content.field_cb_subtitle
+_core:
+  default_config_hash: _RM8m6nS4wUVPS6mp8NVC552eiQWhO0krzGaeltYXNY
+id: block_content.cb_faq.field_cb_subtitle
+field_name: field_cb_subtitle
+entity_type: block_content
+bundle: cb_faq
+label: Subtitle
+description: 'Display a subtitle for the Block.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,15 @@
+uuid: 333355c6-e668-4d71-86aa-90d59bd60492
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_blocks
+third_party_settings:
+  rocketship_blocks:
+    icon_path: /modules/contrib/rocketship_core/modules/rocketship_blocks/assets/images/cb_faq.svg
+_core:
+  default_config_hash: IhtUoi_EM-RHmSMuTFa09j6_-ZN-Q-We_VfNhrHwe3I
+id: cb_faq
+label: FAQ
+revision: 0
+description: 'Create a list of frequently asked questions and answers on a specific page, with a classic FAQ-styling.'

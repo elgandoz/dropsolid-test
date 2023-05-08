@@ -1,0 +1,12 @@
+uuid: cb78fbfe-c9bf-45d9-a8a5-bbaff0b9b95c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3GxrVyfz91O-M53h4Hj2J1OJr9NvqCJV7C4R2SOtMrg
+id: rocketship_blocks_content_group
+label: 'rocketship_blocks_content group'
+description: ''
+source_type: ''
+module: null
+shared_configuration: null

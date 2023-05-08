@@ -1,0 +1,21 @@
+uuid: 003db081-fdeb-4247-bce7-21de7910c5eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - menu_clickthrough
+_core:
+  default_config_hash: JV93h0xGrhoJA3zeb4gihIlIunuYprFXMymFABnUHbE
+id: block_content.field_cb_menu_overview
+field_name: field_cb_menu_overview
+entity_type: block_content
+type: clickthrough_field_type
+settings: {  }
+module: menu_clickthrough
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 3dad7897-e9d2-4fc2-80ad-d819df85cbec
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_text
+    - field.storage.block_content.field_cb_text
+  module:
+    - text
+_core:
+  default_config_hash: sY8-jINddSmSl0_3PFxGzkrxCHVDF_zUn7SHqjSHFHU
+id: block_content.cb_text.field_cb_text
+field_name: field_cb_text
+entity_type: block_content
+bundle: cb_text
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

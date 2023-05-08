@@ -1,0 +1,27 @@
+uuid: 229cd4ce-0eb1-4f6a-a5aa-498ec35e355e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - rocketship_theme_demo
+_core:
+  default_config_hash: 1viTsv-YBqh4ZZqaY6tw2PmFEm1nzBdzOPZhggxAU5U
+id: rocketship_theme_demo_main_menu
+theme: rocketship_theme_demo
+region: nav_primary
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

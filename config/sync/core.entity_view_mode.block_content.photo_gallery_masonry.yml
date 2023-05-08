@@ -1,0 +1,12 @@
+uuid: fe88bf76-7407-4014-8d10-29631855c8a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: wTyxKTi9FWO-rJwh2anpZCCPlZiUsJTbbwo3gkK5W1Y
+id: block_content.photo_gallery_masonry
+label: Masonry
+targetEntityType: block_content
+cache: true

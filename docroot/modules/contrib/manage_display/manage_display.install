@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Contains install and update functions.
+ */
+
+/**
+ * Disables the now-unnecessary module.
+ */
+function manage_display_update_9201() {
+  $service_module_installer = \Drupal::service('module_installer');
+  $service_module_handler = \Drupal::service('module_handler');
+  if ($service_module_handler->moduleExists('manage_display_fix_title')){
+      $service_module_installer->uninstall(['manage_display_fix_title'], FALSE);
+  }
+}
