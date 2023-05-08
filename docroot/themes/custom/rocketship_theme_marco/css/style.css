@@ -292,7 +292,7 @@ body {
   line-height: 1.5rem;
   font-weight: 400;
   text-align: left;
-  text-rendering: optimizeSpeed;
+  text-rendering: optimizespeed;
   color: hsl(var(--clr-base));
   background-color: hsl(var(--clr-base-bg));
   scroll-behavior: smooth;

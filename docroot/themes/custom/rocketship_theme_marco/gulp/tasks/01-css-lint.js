@@ -65,11 +65,10 @@ function cssLintPrecommit(done) {
       }
     })
     .on('end', function() {
-      // notify().write("end");
+      notify().write("end");
       if (error) {
         for (let key in errorMessages) {
-          console.log(errorMessages[key]);
-          // notify().write(errorMessages[key]);
+          notify().write(errorMessages[key]);
         }
         process.exitCode = 1;
       }

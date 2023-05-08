@@ -40,7 +40,7 @@ body {
   @include font-size($font-size-base, $line-height-base);
   font-weight: $font-weight-normal;
   text-align: left;
-  text-rendering: optimizeSpeed;
+  text-rendering: optimizespeed;
   color: hsl(var(--clr-base));
   background-color: hsl(var(--clr-base-bg));
   scroll-behavior: smooth;
