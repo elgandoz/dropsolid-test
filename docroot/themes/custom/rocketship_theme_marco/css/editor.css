@@ -946,6 +946,12 @@ html {
   overflow-y: auto;
 }
 
+.field--name-body.field--type-text-with-summary, .field--name-body.field--type-text-with-summary a {
+  color: tomato;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
+  text-stroke: 4px rgb(255, 255, 255);
+}
+
 a {
   text-decoration: none;
   background-color: transparent;

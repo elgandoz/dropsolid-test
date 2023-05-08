@@ -1,0 +1,8 @@
+.field--name-body.field--type-text-with-summary {
+  &,
+  & a {
+    color: tomato;
+    -webkit-text-stroke: 1px #ffffff66;
+    text-stroke: 4px rgba(255, 255, 255, 100);
+  }
+}

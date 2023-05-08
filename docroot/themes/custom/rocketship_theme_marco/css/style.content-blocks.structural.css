@@ -1405,6 +1405,10 @@ body.theme-debug-mode::after {
     width: calc(100% - var(--gap-cb-related-item));
   }
 }
+.block--type-info {
+  background: dodgerblue;
+}
+
 .layout--content-blocks {
   --gap-layout-vert-top: 2.5rem;
   --gap-layout-vert-bottom: 2.5rem;
