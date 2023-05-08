@@ -1,0 +1,13 @@
+uuid: 56c5dbc1-d7df-4ff6-9fb4-0bab743d3df2
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_blocks
+third_party_settings:
+  rocketship_blocks:
+    icon_path: ''
+id: info
+label: Info
+revision: 0
+description: 'A block type useful for a coding exercise'

@@ -1,0 +1,30 @@
+uuid: 7a326620-8f83-48b1-ab76-756936ac7d47
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:info:a64db870-c298-452f-b5f5-98be71c2d6bd'
+  module:
+    - block_content
+    - system
+  theme:
+    - rocketship_theme_marco
+id: exercise
+theme: rocketship_theme_marco
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:a64db870-c298-452f-b5f5-98be71c2d6bd'
+settings:
+  id: 'block_content:a64db870-c298-452f-b5f5-98be71c2d6bd'
+  label: 'Exercise 1'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
