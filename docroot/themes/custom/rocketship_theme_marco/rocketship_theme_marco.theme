@@ -312,6 +312,7 @@ function rocketship_theme_marco_preprocess_block(&$variables) {
  */
 function rocketship_theme_marco_preprocess_block__info(array &$variables) {
   $variables['attributes']['class'][] = 'fe3-class';
+  $variables['#attached']['library'][] = 'rocketship_theme_marco/fe5-block-info';
 }
 
 /**

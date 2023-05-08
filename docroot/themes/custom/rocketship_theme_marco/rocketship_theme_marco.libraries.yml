@@ -82,7 +82,7 @@ component_images:
     - core/jquery
     - core/drupal
     - core/jquery.once
-    
+
 # Admin styling overrides
 # this is attached when in admin area and quickedit is turned on
 admin_overrides:
@@ -182,3 +182,23 @@ rocketship_content_blocks:
 #     - core/jquery
 #     - core/drupal
 #     - core/jquery.once
+
+# Front End - Exercise 5
+fe5-helpers:
+  js:
+    js/dest/helpers.js: {}
+
+fe5-block-info:
+  js:
+    js/dest/block-info.js: { attributes: { defer: true } }
+  dependencies:
+    - core/drupal
+    - core/once
+
+fe5-block-info-link:
+  js:
+    js/dest/block-info-link.js: { attributes: { defer: true } }
+  dependencies:
+    - core/drupal
+    - core/once
+    - rocketship_theme_marco/fe5-block-info

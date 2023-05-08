@@ -38,6 +38,7 @@ libraries:
   - rocketship_theme_marco/component_menu
   - rocketship_theme_marco/component_search
   - rocketship_theme_marco/component_images
+  - rocketship_theme_marco/fe5-helpers
 
 libraries-override:
   core/modernizr: rocketship_theme_marco/modernizr-custom # override from core because we want to be able to update
