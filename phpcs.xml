@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="my-project">
+  <description>Sample PHP CodeSniffer configuration.</description>
+
+  <arg name="extensions" value="php,module,inc,install,test,profile,theme"/>
+  <arg name="ignore" value="*.css,*.md"/>
+  <arg name="report" value="full"/>
+
+  <rule ref="DrupalPractice" />
+  <rule ref="Drupal" />
+
+  <config name="drupal_core_version" value="8"/>
+  <config name="testVersion" value="8.1-" />
+
+  <!-- @todo why? -->
+  <rule ref="Drupal.Commenting.DocComment.MissingShort">
+    <severity>0</severity>
+  </rule>
+  <!-- @todo why? -->
+  <rule ref="DrupalPractice.CodeAnalysis.VariableAnalysis">
+    <severity>0</severity>
+  </rule>
+  <!-- Class names should already be descriptive enough. -->
+  <rule ref="Drupal.Commenting.ClassComment.Short">
+    <severity>0</severity>
+  </rule>
+  <!-- Picks up too many false positives where a short array makes the line too long. -->
+  <rule ref="Drupal.Arrays.Array.LongLineDeclaration">
+    <severity>0</severity>
+  </rule>
+  <!-- Do not punish someone for trying to communicate an idea. -->
+  <rule ref="Drupal.Files.LineLength.TooLong">
+    <severity>0</severity>
+  </rule>
+  <rule ref="DrupalPractice.Commenting.CommentEmptyLine.SpacingAfter">
+    <severity>0</severity>
+  </rule>
+  <rule ref="Drupal.Commenting.InlineComment.SpacingAfter">
+    <severity>0</severity>
+  </rule>
+  <rule ref="Drupal.Commenting.HookComment.HookCommentFormat">
+    <severity>0</severity>
+  </rule>
+  <!-- This rule is suited to Drupal contribution. -->
+  <rule ref="Drupal.Commenting.Deprecated.IncorrectTextLayout">
+    <severity>0</severity>
+  </rule>
+  <!-- This rule is suited to Drupal contribution. -->
+  <rule ref="Drupal.Commenting.Deprecated.DeprecatedWrongSeeUrlFormat">
+    <severity>0</severity>
+  </rule>
+  <!-- Deprections don't need @see in our project. -->
+  <rule ref="Drupal.Commenting.Deprecated.DeprecatedMissingSeeTag">
+    <severity>0</severity>
+  </rule>
+</ruleset>

@@ -1,0 +1,25 @@
+uuid: 55ccadde-a39c-4c5a-b9f4-6df8f980c4af
+langcode: en
+status: true
+dependencies:
+  module:
+    - dependency_injection_exercise
+    - system
+  theme:
+    - rocketship_theme_marco
+id: restoutputblock
+theme: rocketship_theme_marco
+region: content
+weight: 0
+provider: null
+plugin: rest_output_block
+settings:
+  id: rest_output_block
+  label: 'Rest output block'
+  label_display: visible
+  provider: dependency_injection_exercise
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

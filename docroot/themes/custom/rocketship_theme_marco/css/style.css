@@ -3621,10 +3621,6 @@ body .block-place-region a.button:hover {
   z-index: 990;
 }
 
-.toolbar-horizontal.toolbar-fixed {
-  padding-top: 4.9375rem !important;
-}
-
 .toolbar-tray a, .toolbar-tray a:visited {
   color: #565656;
 }
@@ -5614,4 +5610,24 @@ html {
 }
 .block--system-main-block > .compose-tips .filter-type {
   margin-bottom: var(--gap-md);
+}
+
+.nav--system-menu-block > ul.menu--main,
+.block__branding--header {
+  display: flex;
+  gap: 2em;
+  margin-bottom: 1rem;
+}
+.nav--system-menu-block > ul.menu--main > .block__branding__name,
+.block__branding--header > .block__branding__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.wrapper--navigation__content .menu--sub {
+  z-index: 100;
+  background-color: white;
 }

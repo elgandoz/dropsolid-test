@@ -21,3 +21,23 @@
 @import "03-organisms/**/*.scss";
 @import "04-templates/**/*.scss";
 @import "05-pages/**/*.scss";
+
+
+.nav--system-menu-block > ul.menu--main,
+.block__branding--header {
+  display: flex;
+  gap: 2em;
+  margin-bottom: 1rem;
+
+  & > .block__branding__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+  }
+}
+.wrapper--navigation__content .menu--sub {
+  z-index: 100;
+  background-color: white;
+}
