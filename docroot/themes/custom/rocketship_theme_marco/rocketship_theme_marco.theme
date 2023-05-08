@@ -661,6 +661,19 @@ function rocketship_theme_marco_theme_suggestions_input_alter(array &$suggestion
 }
 
 /**
+ * Implements hook_theme_suggestions_HOOK_alter() for fields.
+ *
+ * @param array $suggestions
+ * @param array $variables
+ */
+function rocketship_theme_marco_theme_suggestions_field_alter(array &$suggestions, array $variables) {
+  $element = $variables['element'];
+  if ($element['#entity_type'] == 'block_content' && $element['#bundle'] == 'info') {
+    $suggestions[] = 'field__' . $element['#entity_type'] . '__' . $element['#field_name'] . '__' . $element['#bundle'] . '__fe4';
+  }
+}
+
+/**
  * Implements hook_theme_suggestions_HOOK_alter().
  */
 function rocketship_theme_marco_theme_suggestions_block_alter(array &$suggestions, array $variables) {
