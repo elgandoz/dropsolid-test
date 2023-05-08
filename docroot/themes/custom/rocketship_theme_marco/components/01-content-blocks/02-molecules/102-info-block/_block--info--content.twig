@@ -1,0 +1,17 @@
+{% extends "@rocketship-theme-marco-molecules/00-block/_block.twig" %}
+
+{% block block_content %}
+  {% if content.field_link %}
+    <a href="{{ content.field_link[0]['#url'] }}">
+  {% else %}
+    <div>
+  {% endif %}
+
+    {{ content|without('field_link') }}
+
+  {% if content.field_link %}
+    </a>
+  {% else %}
+    </div>
+  {% endif %}
+{% endblock %}

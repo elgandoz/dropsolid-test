@@ -12,7 +12,7 @@ dependencies:
 id: exercise
 theme: rocketship_theme_marco
 region: content
-weight: 0
+weight: -4
 provider: null
 plugin: 'block_content:a64db870-c298-452f-b5f5-98be71c2d6bd'
 settings:

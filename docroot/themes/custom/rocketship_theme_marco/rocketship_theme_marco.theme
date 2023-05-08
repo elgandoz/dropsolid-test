@@ -664,6 +664,13 @@ function rocketship_theme_marco_theme_suggestions_block_alter(array &$suggestion
       if ($region !== null) {
         $suggestions[] = $variables['theme_hook_original'] . '__' . $region;
         $suggestions[] = $variables['theme_hook_original'] . '__' . $region . '__' . $block_id;
+        // FE Exercise 2: the blocks theme suggestion were already implemented,
+        // I just added two new ones, by bundle (type) and by region + bundle.
+        if (isset($variables['elements']['content']['#block_content']) && $variables['elements']['content']['#block_content'] instanceof \Drupal\block_content\BlockContentInterface){
+          /** @var \Drupal\block_content\BlockContentInterface $content_block */
+          $bundle = $variables['elements']['content']['#block_content']->bundle();
+          $suggestions[] = $variables['theme_hook_original'] . '__' . $bundle .  '__' . $region;
+        }
       }
     }
   }
