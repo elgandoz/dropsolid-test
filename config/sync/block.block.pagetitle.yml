@@ -1,0 +1,24 @@
+uuid: 441b22d9-408e-40e3-9fa4-45182751f5c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rocketship_theme_marco
+id: pagetitle
+theme: rocketship_theme_marco
+region: nav_secondary
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /dropsolid/example/photos
