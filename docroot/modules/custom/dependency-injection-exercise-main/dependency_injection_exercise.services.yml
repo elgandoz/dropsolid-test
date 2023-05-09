@@ -6,3 +6,9 @@ services:
     class: Drupal\dependency_injection_exercise\CustomBreadcrumbBuilder
     tags:
       - { name: breadcrumb_builder, priority: 1050 }
+  dependency_injection_exercise.language_manager:
+    class: Drupal\dependency_injection_exercise\LanguageManagerDecorator
+    decorates: language_manager
+    arguments: ['@dependency_injection_exercise.language_manager.inner', '@language.default']
+    # ;)
+    alias: language_manager
