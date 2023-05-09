@@ -1,0 +1,4 @@
+services:
+  dependency_injection_exercise.rest_output:
+    class: Drupal\dependency_injection_exercise\RestOutput
+    arguments: ['@http_client']
